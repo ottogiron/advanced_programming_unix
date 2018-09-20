@@ -7,7 +7,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 include_directories("${PROJECT_BINARY_DIR}")
 include_directories("apue.3e/include")
 
-#link directories
-link_directories("apue.3e/lib")
 
 add_executable(adv ch03/test_seek.c)
+target_link_libraries(adv ${CMAKE_SOURCE_DIR}/apue.3e/lib/libapue.a)
