@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "apue.h": "c",
-        "dirent.h": "c"
-    }
-}
