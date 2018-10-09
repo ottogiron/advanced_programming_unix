@@ -2,9 +2,15 @@
 
 #define BUFFSIZE	4096
 
+void doSomething()
+{
+	printf("Nada aca ahciendo algo");
+}
+
 int 
 main(void)
 {
+	doSomething();
 	int n;
 	char buf[BUFFSIZE];
 	
